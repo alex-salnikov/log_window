@@ -33,9 +33,9 @@ input t = 5 , ERROR
 output ERROR: 4
 */
 
-const dict = {}
 
 const find = function(log, t_minutes, msg_type){
+    const dict = {}
     delta = t_minutes * 60  // time in seconds
 
     log.split("\n").forEach(line => {

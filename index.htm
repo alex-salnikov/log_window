@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>log_window</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <script>
+            function test(){
+                window.dict = {}
+                type = document.getElementById('type').value
+                delta = document.getElementById('time').value
+                result = find(log_file, delta, type)
+                document.getElementById('result').innerText = result[type].max
+            }
+        </script>
+        window: <input id="time" value="5"> min.
+        <br/>
+        type: <select id="type">
+            <option value="ERROR">ERROR</option>
+            <option value="WARNING">WARNING</option>
+            <option value="INFO">INFO</option>
+          </select>
+        <br/>
+        <a id="btn" href="#" onclick="test()">Test</a>
+        <br/>
+        <p id="result">(click "Test")</p>
+    </body>
+</html>
