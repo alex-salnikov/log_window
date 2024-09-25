@@ -12,14 +12,12 @@ WARNING: 2
 
 ```
 [1695374400] INFO: Starting the system               # 2024-09-22 12:00:00
-
 [1695374401] ERROR: Failed to load configuration     # 2024-09-22 12:00:01
 [1695374460] WARNING: Disk usage high                # 2024-09-22 12:01:00
 [1695374520] ERROR: Failed to connect to database    # 2024-09-22 12:02:00
 [1695374580] INFO: User login successful             # 2024-09-22 12:03:00
 [1695374610] ERROR: Failed to connect to database    # 2024-09-22 12:03:30
 [1695374640] INFO: File uploaded                     # 2024-09-22 12:04:00
-
 [1695374700] ERROR: Timeout while connecting to server # 2024-09-22 12:06:00
 [1695374760] ERROR: Failed to connect to database    # 2024-09-22 12:06:00
 [1695374820] WARNING: Memory usage high              # 2024-09-22 12:07:00
